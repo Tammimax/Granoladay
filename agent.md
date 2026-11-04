@@ -13,5 +13,5 @@ https://github.com/Tammimax/Granoladay
 1. 檢查並初始化本地 git 倉庫。
 2. 將上述的 HTTPS 或 SSH 網址設定為名為 `origin` 的遠端倉庫。
 3. 建立並切換至 `main` 分支。
-4. 暫存所有檔案、生成 Commit 並推送到遠端。
+4. 暫存所有檔案、生成 Commit 並推送到遠端。並推送到遠端
 
