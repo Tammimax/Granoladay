@@ -386,3 +386,5 @@ AI 的角色是**準備好**：產出 SQL 檔、部署步驟、檢查清單，�
 ---
 
 *本講義會隨專案持續更新。原始工程筆記見各專案根目錄的 `lessons-learned.md`。*
+網址 UUX 網站已完成
+https://tammimax.github.io/Granoladay/
