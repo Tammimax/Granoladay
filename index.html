@@ -1,18 +1,22 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link ref="stylesheet" href="css/style.css">
-</head>
-
+﻿<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>GRANOLA DAY 全穀物｜美好日常</title><meta name="description" content="嚴選天然全穀物，為你與家人帶來簡單、營養又美味的日常。"><link href="css/bootstrap.min.css" rel="stylesheet"><link href="css/style.css" rel="stylesheet"></head>
 <body>
-    <h1>Hello, world!</h1>
-    
-    <script src="js/bootstrap.min.js"></script>
-</body>
-
-</html>
+<header class="navbar navbar-expand-lg site-header"><div class="container-fluid gap-3"><a class="brand" href="./"><i>❧</i><span><strong>GRANOLA DAY <b>全穀物</b></strong><small>Healthy Granola for a Better Everyday</small></span></a><button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-label="開啟選單" aria-controls="nav" aria-expanded="false"><span class="navbar-toggler-icon"></span></button><nav class="collapse navbar-collapse" id="nav"><div class="navbar-nav mx-auto"><a class="nav-link active" href="#">首頁</a><a class="nav-link" href="#ingredients">天然食材</a><a class="nav-link" href="#shop">OUR GRANOLA</a><a class="nav-link" href="#story">品牌故事</a><a class="nav-link" href="#inspiration">食譜靈感</a></div></nav><input class="search form-control" id="search" type="search" aria-label="搜尋商品" placeholder="⌕  搜尋商品、食譜或關鍵字"><button class="cart-toggle" data-bs-toggle="offcanvas" data-bs-target="#cart" aria-controls="cart" aria-label="開啟購物車">♡ <span id="cart-count">0</span></button></div></header>
+<main class="container-fluid page-shell"><div class="row g-4">
+<div class="col-12 col-xl-7">
+<section class="hero"><div class="hero-copy"><p class="eyebrow">全穀物・更完整的營養</p><h1>每一口，<br>開啟更好的每一天。</h1><p class="english">Crunch Into a Better Day.</p><p>嚴選全穀物，真實食材與低糖配方，<br>為你與家人帶來簡單、營養又美味的日常。</p><a href="#shop" class="btn olive rounded-pill">探索全穀系列　→</a></div></section>
+<section class="benefits" id="ingredients"><div><i>❧</i><span><b>全穀營養</b><small>保留更多膳食纖維</small></span></div><div><i>♧</i><span><b>真實食材</b><small>無人工香料・無色素</small></span></div><div><i>⬡</i><span><b>低糖配方</b><small>減少負擔・自然甜香</small></span></div><div><i>♡</i><span><b>全家適合</b><small>大人小孩都愛吃</small></span></div></section>
+<section class="categories"><div class="section-heading"><h2><span>❧</span> 探索全穀物系列</h2><a href="#shop" id="all-series">查看全部系列 →</a></div><div class="category-grid" id="category-grid"></div></section>
+<section class="story" id="story"><div><p>GRANOLA DAY</p><h2>用全穀物，<br>陪伴更健康的生活。</h2><button class="btn story-button rounded-pill" data-bs-toggle="modal" data-bs-target="#story-modal">了解品牌故事 →</button></div></section>
+</div>
+<div class="col-12 col-xl-5">
+<section class="shop-panel" id="shop"><h2>OUR GRANOLA <span>全穀物商品</span></h2><div class="series-tabs" id="series-tabs" role="group" aria-label="商品系列"></div><div class="shop-content"><aside class="filters"><h3>商品篩選</h3><fieldset><legend>風味</legend><div id="flavor-filters"></div></fieldset><fieldset><legend>飲食需求</legend><label><input name="diet" type="checkbox" value="低糖配方">低糖配方</label><label><input name="diet" type="checkbox" value="高纖維">高纖維</label><label><input name="diet" type="checkbox" value="無添加">無添加</label><label><input name="diet" type="checkbox" value="純素可食">純素可食</label></fieldset><fieldset><legend>包裝重量</legend><label><input name="weight" type="radio" value="350" checked>350 g</label><label><input name="weight" type="radio" value="1000">1 kg</label></fieldset><button id="clear-filter" class="clear-filter">清除篩選</button></aside><div class="products-area"><div class="products-toolbar"><span id="result-count" aria-live="polite"></span><select id="sort" class="form-select form-select-sm" aria-label="商品排序"><option value="popular">排序：人氣推薦</option><option value="price-up">價格：低至高</option><option value="price-down">價格：高至低</option></select></div><div class="product-grid" id="products"></div><p id="empty-state" hidden>目前沒有符合條件的商品。</p></div></div></section>
+<section class="perks"><div><i>♧</i><span><b>滿 TWD 1,000 免運</b><small>全台宅配・快速到貨</small></span></div><div><i>♙</i><span><b>會員專屬優惠</b><small>首購現折 TWD 100</small></span></div><div><i>❧</i><span><b>訂閱更省</b><small>定期配送 95 折</small></span></div></section>
+<section class="inspiration" id="inspiration"><p class="eyebrow">A LITTLE GOODNESS, EVERY DAY</p><h2>一碗美好，從今天開始。</h2><p>搭配牛奶、優格與當季水果，<br>讓每一天都有期待的味道。</p></section>
+</div></div></main>
+<footer>© 2026 GRANOLA DAY 全穀物 · 用天然，款待每一天。<small>靜態介面展示 · 購物車僅供操作體驗，未提供結帳服務</small></footer>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="cart" aria-labelledby="cart-title"><div class="offcanvas-header"><h2 class="fs-4" id="cart-title">你的購物車</h2><button class="btn-close" data-bs-dismiss="offcanvas" aria-label="關閉"></button></div><div class="offcanvas-body"><div id="cart-items"></div><p class="mt-4 fw-bold" id="cart-total"></p><p class="small text-secondary">此為靜態展示，尚未串接付款與訂單服務。</p></div></div>
+<div class="modal fade" id="story-modal" tabindex="-1" aria-labelledby="story-title" aria-hidden="true"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h2 class="fs-4 modal-title" id="story-title">用全穀物，陪伴美好日常</h2><button class="btn-close" data-bs-dismiss="modal" aria-label="關閉"></button></div><div class="modal-body"><p>我們相信，好的生活，從一份簡單而真實的早餐開始。</p><p>GRANOLA DAY 選用全穀物、堅果與果乾，以自然的香氣與酥脆口感，陪伴你與家人的每一天。</p></div></div></div></div>
+<div class="toast-container position-fixed bottom-0 start-50 translate-middle-x p-3"><div id="cart-toast" class="toast" role="status" aria-live="polite" aria-atomic="true"><div class="toast-body">已加入購物車，讓美好日常多一點！</div></div></div>
+<script src="js/bootstrap.bundle.min.js"></script><script src="js/app.js"></script></body></html>
